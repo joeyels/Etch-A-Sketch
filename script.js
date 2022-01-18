@@ -81,7 +81,7 @@ function hovering(boxes, color) {
 
 function reset(resetButton, boxes) {
     resetButton.addEventListener(('click'), function(event) {
-        for (let i = 0.1; i < boxes.length; i++) {
+        for (let i = 0; i < boxes.length; i++) {
             boxes[i].style.opacity = '1';
             boxes[i].style.backgroundColor = "white";               
         }
